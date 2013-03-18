@@ -34,13 +34,11 @@ class Index
 
     function test()
     {
-        $a = load('index_model');
-        $a->set_data('偶尔陶醉');
+        $result['title'] = '这里是not_display页面';
+        $result['content'] = '不要输出'; 
+        $result['arr'] = array(0,1,2,3,4,5,6);
 
-        $b = load('index_model');
-        echo $b->get_data();
-        echo '<hr>';
-        echo $b->do_something();
+        $content = load('index_2', 'view', $result);
     }
 
 

@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title><?php echo $title ?></title>
+</head>
+<body>
+<h1><?php echo $content ?></h1>
+
+<ifexist arr>
+<ul>
+    <for value = arr>
+    <li><echo value></li>
+    <endfor>
+</ul>
+<endexist>
+
+</body>
+</html>

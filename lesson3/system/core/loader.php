@@ -95,14 +95,34 @@ class Loader
         # 否则加载文件
         include ROOT."/application/views/{$view}.html";
 
+        $content = ob_get_contents();
+        @ob_end_clean();
+
+        $pattern = array(
+            '/<ifexist\s+(\w+)>/i',
+            '/<for\s+(\w+)\s=\s(\w+)>/',
+            '/<echo\s+(\w+)>/'
+        );
+
+        $replacement = array(
+            '<?php if( ! empty($\\1)){ ?>',
+            '<?php foreach($\\2 as $\\1){ ?>',
+            '<?php echo $\\1 ?>'
+        );
+
+        $content = preg_replace($pattern, $replacement, $content);
+
+        $search = array('<endexist>', '<endfor>');
+        $content = str_replace($search, '<?php } ?>', $content);
+
+        $content = eval(' ?>'.$content);
+
         if ( ! empty($data['do_not_display']))
         {
-            $content = ob_get_contents();
-            @ob_end_clean();
             return $content;
         }
 
-        ob_end_flush();
+        echo $content;
 
         return TRUE;
     }
