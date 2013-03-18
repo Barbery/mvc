@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"ob_end",
+				"ob_end_flush"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
 				"set",
 				"set_var"
 			],
@@ -74,10 +86,6 @@
 			[
 				"kvdb",
 				"kvdb_delete"
-			],
-			[
-				"is",
-				"is_map"
 			],
 			[
 				"var",
@@ -506,56 +514,40 @@
 			[
 				"m",
 				"matches"
-			],
-			[
-				"array_u",
-				"array_unique"
-			],
-			[
-				"error_re",
-				"error_report"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "lesson2/index.php",
+			"file": "lesson3/system/core/loader.php",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lesson3/application/views/index.html",
+			"settings":
+			{
+				"buffer_size": 258,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lesson3/application/controllers/index.php",
+			"settings":
+			{
+				"buffer_size": 779,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lesson3/index.php",
 			"settings":
 			{
 				"buffer_size": 1117,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson2/application/controllers/index.php",
-			"settings":
-			{
-				"buffer_size": 359,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson2/application/models/index_model.php",
-			"settings":
-			{
-				"buffer_size": 443,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson2/system/core/loader.php",
-			"settings":
-			{
-				"buffer_size": 1721,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson2/application/librarys/test.php",
-			"settings":
-			{
-				"buffer_size": 331,
 				"line_ending": "Windows"
 			}
 		}
@@ -600,6 +592,12 @@
 	},
 	"file_history":
 	[
+		"/D/wamp/www/MVC/lesson3/application/views/index.php",
+		"/D/wamp/www/MVC/lesson2/application/librarys/test.php",
+		"/D/wamp/www/MVC/lesson2/system/core/loader.php",
+		"/D/wamp/www/MVC/lesson2/application/models/index_model.php",
+		"/D/wamp/www/MVC/lesson2/application/controllers/index.php",
+		"/D/wamp/www/MVC/lesson2/index.php",
 		"/D/wamp/www/MVC/lesson2/application/controllers/hello.php",
 		"/D/wamp/www/MVC/lesson2/system/core/core_controller.php",
 		"/D/wamp/www/ishgo/3/application/views/register.php",
@@ -721,8 +719,7 @@
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SVN/Main.sublime-menu",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SVN/SVN.sublime-settings",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SVN.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
-		"/E/sublime_text.exe"
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap"
 	],
 	"find":
 	{
@@ -900,23 +897,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lesson2/index.php",
+					"file": "lesson3/system/core/loader.php",
 					"settings":
 					{
-						"buffer_size": 1117,
+						"buffer_size": 2151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								845,
-								845
+								33,
+								33
 							]
 						],
 						"settings":
@@ -926,32 +923,30 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 600.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lesson2/application/controllers/index.php",
+					"file": "lesson3/application/views/index.html",
 					"settings":
 					{
-						"buffer_size": 359,
+						"buffer_size": 258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								311,
-								311
+								61,
+								61
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -961,18 +956,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "lesson2/application/models/index_model.php",
+					"file": "lesson3/application/controllers/index.php",
 					"settings":
 					{
-						"buffer_size": 443,
+						"buffer_size": 779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								246,
-								246
+								472,
+								472
 							]
 						],
 						"settings":
@@ -989,18 +984,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "lesson2/system/core/loader.php",
+					"file": "lesson3/index.php",
 					"settings":
 					{
-						"buffer_size": 1721,
+						"buffer_size": 1117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								855,
+								855
 							]
 						],
 						"settings":
@@ -1010,35 +1005,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lesson2/application/librarys/test.php",
-					"settings":
-					{
-						"buffer_size": 331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								95
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
