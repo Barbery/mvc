@@ -100,7 +100,7 @@ class Loader
 
         $pattern = array(
             '/<ifexist\s+(\w+)>/i',
-            '/<for\s+(\w+)\s=\s(\w+)>/',
+            '/<for\s+(\w+)\s*=\s*(\w+)>/',
             '/<echo\s+(\w+)>/'
         );
 
