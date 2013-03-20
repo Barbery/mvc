@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title><?php echo $title ?></title>
+</head>
+<body>
+<h1><?php echo $content ?></h1>
+
+<?php if( ! empty($arr)) { ?>
+<ul>
+    <?php foreach($arr as $value) { ?>
+    <li><?php echo $value ?></li>
+    <?php } ?>
+</ul>
+<?php } ?>
+
+</body>
+</html>

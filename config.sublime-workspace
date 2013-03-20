@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"clas",
+				"class	class …"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"show",
+				"show_error"
+			],
+			[
 				"ob_end",
 				"ob_end_flush"
 			],
@@ -452,10 +464,6 @@
 				"http_build_query"
 			],
 			[
-				"show",
-				"show_404"
-			],
-			[
 				"que",
 				"queue"
 			],
@@ -506,48 +514,24 @@
 			[
 				"is_in",
 				"is_int"
-			],
-			[
-				"is_a",
-				"is_array"
-			],
-			[
-				"m",
-				"matches"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "lesson3/system/core/loader.php",
+			"file": "lesson4/index.php",
 			"settings":
 			{
-				"buffer_size": 2151,
+				"buffer_size": 2388,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lesson3/application/views/index.html",
+			"file": "lesson4/application/views/error.html",
 			"settings":
 			{
-				"buffer_size": 258,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson3/application/controllers/index.php",
-			"settings":
-			{
-				"buffer_size": 779,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson3/index.php",
-			"settings":
-			{
-				"buffer_size": 1117,
+				"buffer_size": 1246,
 				"line_ending": "Windows"
 			}
 		}
@@ -592,6 +576,11 @@
 	},
 	"file_history":
 	[
+		"/D/wamp/www/MVC/lesson3/index.php",
+		"/D/wamp/www/MVC/lesson3/application/controllers/index.php",
+		"/D/wamp/www/MVC/lesson3/application/views/index_2.html",
+		"/D/wamp/www/MVC/lesson3/application/views/index.html",
+		"/D/wamp/www/MVC/lesson3/system/core/loader.php",
 		"/D/wamp/www/MVC/lesson3/application/views/index.php",
 		"/D/wamp/www/MVC/lesson2/application/librarys/test.php",
 		"/D/wamp/www/MVC/lesson2/system/core/loader.php",
@@ -714,12 +703,7 @@
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/PHP/foreach(-).sublime-snippet",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/PHP/if(-).sublime-snippet",
 		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/PHP/if(-)-else(-).sublime-snippet",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/TortoiseSVN/TortoiseSVN.sublime-settings",
-		"/c/users/admini~1/appdata/local/temp/sublime-svn-1355143831/SVN",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SVN/Main.sublime-menu",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SVN/SVN.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/SVN.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap"
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/TortoiseSVN/TortoiseSVN.sublime-settings"
 	],
 	"find":
 	{
@@ -897,23 +881,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lesson3/system/core/loader.php",
+					"file": "lesson4/index.php",
 					"settings":
 					{
-						"buffer_size": 2151,
+						"buffer_size": 2388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33,
-								33
+								1487,
+								1487
 							]
 						],
 						"settings":
@@ -923,25 +907,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lesson3/application/views/index.html",
+					"file": "lesson4/application/views/error.html",
 					"settings":
 					{
-						"buffer_size": 258,
+						"buffer_size": 1246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								61,
-								61
+								1178,
+								1178
 							]
 						],
 						"settings":
@@ -950,62 +934,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "lesson3/application/controllers/index.php",
-					"settings":
-					{
-						"buffer_size": 779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								472,
-								472
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lesson3/index.php",
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								855,
-								855
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
